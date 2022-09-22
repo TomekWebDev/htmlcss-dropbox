@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.width70Container{
+    width: 70%;
+    margin: auto;
+}
+
+.width65Container{
+    width: 65%;
+    margin: auto;
+}
+
+.width60Container{
+    width: 60%;
+    margin: auto;
+}
+
+.flexContainer{
+    display: flex;
+}
+
+.justifyBetween{
+    justify-content: space-between;
+}
+
+.alignCenter{
+    align-items: center;
+}
+
+.alignEnd{
+    align-items: flex-end;
+}
+
+.justifyCenter{
+    justify-content: center;
+}
+
+.justifyEnd{
+    justify-content: end;
+}
+
+.justifyAround{
+    justify-content: space-around;
+}
+
+.flexRow{
+    flex-direction: row;
+}
+
+.flexColumn{
+    flex-direction: column;
+}
+
+.flexWrap{
+    flex-wrap: wrap;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.bold{
+    font-weight: bold;
+}
