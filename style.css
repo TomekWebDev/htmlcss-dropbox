@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700;800&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: lightskyblue;
+}
+
+header{
+    font-size: 0.8rem;
+}
+
+.navBtn{
+    font-size: 0.8rem;
+}
+
+h1{
+    font-size: 3.4rem;
+    font-weight:900;
+}
+
+header ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0.6rem;
+}
+
+.rightList{
+    margin-right: 2rem;
+}
+
+.fixedHeader{
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 0.2rem;
+}
+
+.navContainer{
+    width: 98%;
+    margin: auto;
+    font-size: 0.7rem;;
+}
+
+.leftHeader,
+.rightHeader{
+    width: 40%;
+}
+
+.logo{
+    width: 20%;
+}
+
+.rightPartRight{
+    width: 15%;
+}
+
+.blueBackground{
+    width: 100%;
+    background-color: #b4d0e7;
+    height: 600px;
+}
+
+.headerContentContainer{
+    border: 1px solid black;
+    padding-top: 6%;
+}
+
+.mainTitle{
+    margin-bottom: 4%;
+}
+
+.headerText-btn{
+    width: 30%;
+}
+
+.headerImage{
+    width: 68%;
+}
+
+.headerImage > img{
+    width: 100%;
+}
+
+.headerText-btn *{
+    margin-bottom: 1.5rem;
+}
+
+.arrow{
+    margin-top: 5rem;
+}
+
