@@ -3,13 +3,22 @@
 body{
     font-family: 'Open Sans', sans-serif;
     background-color: lightskyblue;
+    font-size: 0.8rem;
 }
 
 header{
     font-size: 0.8rem;
 }
 
+button{
+    font-family: 'Open Sans', sans-serif;
+}
+
 .navBtn{
+    font-size: 0.8rem;
+}
+
+.bigButton{
     font-size: 0.8rem;
 }
 
@@ -22,6 +31,11 @@ header ul li{
     list-style: none;
     display: inline-block;
     margin: 0.6rem;
+}
+
+.blueUnderlined{
+    color: blue;
+    text-decoration: underline;
 }
 
 .rightList{
@@ -89,3 +103,69 @@ header ul li{
     margin-top: 5rem;
 }
 
+section{
+    margin: auto;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    width: 55%;
+    border: 1px solid red;
+}
+
+.sectionTitle{
+    margin-bottom: 2rem;
+}
+
+.radio{
+    margin-bottom: 2rem;
+}
+
+.plansContainer{
+    margin-bottom: 2rem;
+}
+
+.planColumn{
+    width: 30%;
+    border: 1px solid black;
+}
+
+.planSuggestion{
+    border-bottom: 1px solid black;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.featuresContainer{
+    padding: 1rem;
+}
+
+.planList{
+    list-style: none;
+}
+
+.smallBar{
+    background-color: gray;
+    height: 1px;
+    width: 20%;
+    margin: 2rem 0;
+}
+
+.featuresContainer ul{
+    margin: 2rem 0;
+}
+
+.rowPlanContainer{
+    border: 1px solid black;
+}
+
+.btnContainer{
+    width: 30%;
+    text-align: center;
+}
+
+.txtContainer{
+    width: 60%;
+}
+
+.featuresContainer > button{
+    justify-self: center;
+}
