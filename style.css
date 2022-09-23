@@ -169,3 +169,29 @@ section{
 .featuresContainer > button{
     justify-self: center;
 }
+
+.partnerImg{
+    width: 60%;
+}
+
+.partnerTxt{
+    width: 35%;
+    align-self: center;
+}
+
+.partnerImg > img{
+    width: 100%; 
+    vertical-align: middle;   
+}
+
+.card > img{
+    width: 100%;
+}
+
+.card{
+    width: 30%;
+}
+
+.section4 > h2{
+    width: 40%;
+}
