@@ -9,6 +9,10 @@
     margin: auto;
 }
 
+.width50{
+    width: 50%;
+}
+
 .width70Container{
     width: 70%;
     margin: auto;
@@ -21,6 +25,11 @@
 
 .width60Container{
     width: 60%;
+    margin: auto;
+}
+
+.width55Container{
+    width: 55%;
     margin: auto;
 }
 
