@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.width100{
+    width: 100%;
+    margin: auto;
+}
+
 .width70Container{
     width: 70%;
     margin: auto;

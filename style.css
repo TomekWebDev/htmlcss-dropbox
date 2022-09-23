@@ -195,3 +195,27 @@ section{
 .section4 > h2{
     width: 40%;
 }
+
+.col1,
+.col2,
+.col3{
+    width: 30%;
+}
+
+.square{
+    height: 0;
+    width: 50%;
+    padding-bottom: 50%;
+    background-color: red;
+}
+
+.square img{
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.square{
+   
+}
