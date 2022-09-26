@@ -14,12 +14,47 @@ button{
     font-family: 'Open Sans', sans-serif;
 }
 
+a{
+    color: rgba(0, 0,255, .8);
+}
+
+a:hover{
+    color: blue;
+}
+
+.blueBtn:hover{
+    box-shadow: 0 2px 8px rgba(0, 0,255, .5);
+    background-color: blue;
+}
+
 .navBtn{
     font-size: 0.8rem;
+    padding: 0.3rem 0.8rem;
+    background-color: blue;
+    color: white;
+    border: none;
 }
 
 .bigButton{
     font-size: 0.8rem;
+    padding: 0.3rem 0.8rem;
+    border: none;
+}
+
+.blueBtn{
+    background-color: rgba(0, 0, 255, .8);
+    color: white;
+}
+
+.whiteBtn{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    margin-top: 1rem;
+}
+
+.whiteBtn:hover{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
 }
 
 h1{
@@ -40,6 +75,14 @@ header ul li{
 
 .blueUnderlined{
     color: blue;
+    text-decoration: underline;
+}
+
+.leftList li:hover{
+    text-decoration: underline;
+}
+
+.rightList li:hover{
     text-decoration: underline;
 }
 
@@ -70,8 +113,12 @@ header ul li{
     width: 20%;
 }
 
+#logoImg{
+    width: 80%;
+}
+
 .rightPartRight{
-    width: 15%;
+    width: 18%;
 }
 
 .blueBackground{
@@ -81,7 +128,6 @@ header ul li{
 }
 
 .headerContentContainer{
-    border: 1px solid black;
     padding-top: 6%;
 }
 
@@ -106,7 +152,8 @@ header ul li{
 }
 
 .arrow{
-    margin-top: 5rem;
+    margin-top: 4rem;
+    font-size: 3rem;
 }
 
 section{
@@ -114,7 +161,10 @@ section{
     margin-top: 6rem;
     margin-bottom: 4rem;
     width: 55%;
+}
 
+h3{
+    margin-bottom: 1rem;
 }
 
 .sectionTitle{
@@ -146,6 +196,38 @@ section{
 
 .planList{
     list-style: none;
+    padding-left: 8%;
+}
+
+.planList li{
+    margin-bottom: 1rem;
+    text-indent: -8%;
+
+}
+
+.user::before{
+    content: "\f007";
+    font-family: "Font Awesome 5 Free";
+}
+
+.folder::before{
+    content: "\f07b";
+    font-family: "Font Awesome 5 Free";
+}
+
+.share::before{
+    content: "\f1e1";
+    font-family: "Font Awesome 5 Free";
+}
+
+.feature::before{
+    content: "\f058";
+    font-family: "Font Awesome 5 Free";
+    color: blue
+}
+
+.planBtn{
+    margin-bottom: 1rem;
 }
 
 .smallBar{
@@ -161,6 +243,10 @@ section{
 
 .rowPlanContainer{
     border: 1px solid black;
+}
+
+.rowPlanContainer h4{
+    margin-bottom: 2rem;
 }
 
 .btnContainer{
@@ -211,7 +297,7 @@ section{
 .square{
     height: 0;
     width: 50%;
-    padding-bottom: 50%;
+    padding-bottom: 46%;
     background-color: red;
 }
 
@@ -220,38 +306,48 @@ section{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    filter: invert();
 }
 
 .designit{
     background-color: #a3d39b;
+    border: 10px solid #d1e9cd;
+
 }
 
 .arizona{
     background-color: #61082b;
+    border: 10px solid #61082b;
 }
 
 .florida{
     background-color: #0093CE;
+    border: 10px solid #0093CE ;
 }
 
 .topps{
     background-color: #ff1d1d;
+    border: 10px solid #ff1d1d ;
 }
 
 .bicycle{
     background-color: #d5001e;
+    border: 10px solid #d5001e;
 }
 
 .hearst{
     background-color: #b4d0e7;
+    border: 10px solid #b4d0e7;
 }
 
 .lonely{
     background-color: #0d2481;
+    border: 10px solid #0d2481;
 }
 
 .clear{
    background-color: #ffd830;
+   border: 10px solid #ffd830;
 }
 
 .col2{
@@ -275,20 +371,23 @@ section{
 
 .question{
     border-top: 1px solid black;
-    padding: 2rem 0;
-    
-}
-
-.section6 :last-child{
-    border-bottom: 1px solid black;
+    padding: 2rem 0;   
 }
 
 .dropdown{
-    text-decoration: none;
+    font-weight: 600;
+}
+
+.hoverAnswer{
+    display: none;
+}
+
+.question:hover + .hoverAnswer{
+    display: inline-block;
 }
 
 footer{
-    padding: 5rem 0;
+    padding: 5% 0 3%;
     background-color: black;
     color: white;
 }
@@ -298,3 +397,25 @@ footer ul{
     font-weight: 800;
 }
 
+footer h3{
+    margin-bottom: 1rem;
+}
+
+.footerList li{
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+}
+
+.smallBarFooter{
+    background-color: white;
+    height: 1px;
+    width: 6%;
+    margin: 2rem 0;
+    margin-left: calc(35% / 2);
+}
+
+#langSel{
+    background: none;
+    border: none;
+    color: white;
+}
