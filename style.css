@@ -22,11 +22,6 @@ a:hover{
     color: blue;
 }
 
-.blueBtn:hover{
-    box-shadow: 0 2px 8px rgba(0, 0,255, .5);
-    background-color: blue;
-}
-
 .navBtn{
     font-size: 0.8rem;
     padding: 0.3rem 0.8rem;
@@ -44,6 +39,11 @@ a:hover{
 .blueBtn{
     background-color: rgba(0, 0, 255, .8);
     color: white;
+}
+
+.blueBtn:hover{
+    box-shadow: 0 2px 8px rgba(0, 0,255, .5);
+    background-color: blue;
 }
 
 .whiteBtn{
