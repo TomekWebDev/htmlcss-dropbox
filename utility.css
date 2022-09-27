@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.width100{
+.width100Container{
     width: 100%;
     margin: auto;
 }
@@ -83,4 +83,8 @@
 
 .bold{
     font-weight: bold;
+}
+
+.width10{
+
 }
