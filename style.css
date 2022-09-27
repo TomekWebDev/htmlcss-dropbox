@@ -88,7 +88,6 @@ header ul li{
 
 .fixedHeader{
     position: fixed;
-    width: 100%;
     background-color: #ffffff;
     padding: 0.2rem;
     z-index: 1;
@@ -100,25 +99,11 @@ header ul li{
     font-size: 0.7rem;;
 }
 
-.leftHeader,
-.rightHeader{
-    width: 40%;
-}
-
-.logo{
-    width: 20%;
-}
-
-#logoImg{
-    width: 80%;
-}
-
 .rightPartRight{
     width: 18%;
 }
 
 .blueBackground{
-    width: 100%;
     background-color: #b4d0e7;
     height: 600px;
 }
@@ -131,16 +116,8 @@ header ul li{
     margin-bottom: 4%;
 }
 
-.headerText-btn{
-    width: 30%;
-}
-
 .headerImage{
     width: 68%;
-}
-
-.headerImage > img{
-    width: 100%;
 }
 
 .headerText-btn *{
@@ -228,7 +205,6 @@ h3{
 .smallBar{
     background-color: gray;
     height: 1px;
-    width: 20%;
     margin: 2rem 0;
 }
 
@@ -245,20 +221,11 @@ h3{
 }
 
 .btnContainer{
-    width: 30%;
     text-align: center;
-}
-
-.txtContainer{
-    width: 60%;
 }
 
 .featuresContainer > button{
     justify-self: center;
-}
-
-.partnerImg{
-    width: 60%;
 }
 
 .partnerTxt{
@@ -267,20 +234,7 @@ h3{
 }
 
 .partnerImg > img{
-    width: 100%; 
     vertical-align: middle;   
-}
-
-.card > img{
-    width: 100%;
-}
-
-.card{
-    width: 30%;
-}
-
-.section4 > h2{
-    width: 60%;
 }
 
 .col1,
@@ -348,10 +302,6 @@ h3{
 .col2{
     background-color: #f5f5f5;
     padding: 2rem;
-}
-
-.bigLogo{
-    width: 50%;
 }
 
 .col2 p{
